@@ -1,7 +1,7 @@
 const menorValor = 1;
 const maiorValor = 1000;
 const numeroSecreto = gerarNumeroAleatorio();
-let tentativas = 1;
+let tentativas = 10;
 
 function gerarNumeroAleatorio () {
     return parseInt(Math.random() * maiorValor + 1);
